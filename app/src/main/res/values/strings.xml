@@ -1,0 +1,101 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">TopSiteServices</string>
+    <string name="player_error">Erreur lors de l\'initialisation du lecteur YouTube: %s</string>
+    <string name="error_player">Une erreur s\'est produite lors de l\'initialisation de YouTubePlayer (%1$s)</string>
+
+    <string name="scanning">Scanning...</string>
+
+    <string name="menu_standard">Standard</string>
+    <string name="menu_metric">Metric</string>
+
+    <string name="youtube_api_demo">YouTube API Demos</string>
+
+    <string name="videowall_demo_name">Video Wall</string>
+    <string name="videolist_demo_name">Video List</string>
+    <string name="standalone_player_demo_name">Standalone Player</string>
+    <string name="playerview_demo_name">Simple PlayerView</string>
+    <string name="fragment_demo_name">Simple PlayerFragment</string>
+    <string name="player_controls_demo_name">Custom Player Controls</string>
+    <string name="action_bar_demo_name">Overlay ActionBar Demo</string>
+    <string name="fullscreen_demo_name">Custom Fullscreen Handling</string>
+    <string name="intents_demo_name">YouTube App Launcher Intents</string>
+
+    <string name="app_name2">SmsParsing</string>
+
+    <string name="action_ok">OK</string>
+    <string name="action_send_normal_sms">Envoyer des SMS normaux</string>
+    <string name="action_send_condition_sms">Envoyer la condition SMS</string>
+
+    <string name="your_cellphone_number">Votre numéro de portable:</string>
+    <string name="phone_number_hint">912345678</string>
+    <string name="toast_sending_sms">Envoi de sms…</string>
+
+    <string name="permission_alert_dialog_title">Demande de permission de SMS</string>
+    <string name="permission_dialog_message">L\'application va maintenant demander votre autorisation d\'envoyer et de lire des services liés aux SMS.</string>
+
+    <string name="error_invalid_phone_number">Numéro de téléphone invalide</string>
+
+    <string name="playerview_text">Ceci est un YouTubePlayerView!</string>
+    <string name="playerfragment_text">Ceci est un YouTubePlayerFragment!</string>
+
+    <string name="demo_select">Veuillez sélectionner une démo:</string>
+    <string name="some_demos_disabled">Votre appareil fonctionne actuellement sous la version de l\'API Android <xliff:g id="current_version">%1$s</xliff:g>.</string>
+    <string name="list_item_disabled">Nécessite la version de l\'API Android <xliff:g id="required_version">%1$s</xliff:g> or higher.</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="skip_to">Skip To</string>
+    <string name="seconds">secs</string>
+    <string name="player_style">Player Style</string>
+    <string name="def">Default</string>
+    <string name="minimal">Minimum</string>
+    <string name="chromeless">Chromeless</string>
+
+    <string name="play_video">Play video</string>
+    <string name="play_playlist">Play playlist</string>
+    <string name="play_video_list">Play video list</string>
+    <string name="start_index">Start index</string>
+    <string name="start_time">Start time (sec)</string>
+    <string name="autoplay">Lecture automatique</string>
+    <string name="lightbox_mode">Mode Lightbox</string>
+
+    <string name="intent_select">Veuillez sélectionner une action:</string>
+    <string name="intent_disabled">Cet intent n\'est pas prise en charge avec la version actuellement installée de YouTube.</string>
+    <string name="youtube_currently_installed">Version YouTube installée sur cet appareil: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube n\'est pas installé sur cet appareil.</string>
+
+    <string name="fullscreen_tutorial">Ceci est une démo qui montre comment gérer le comportement en plein écran. Cette activité a différentes dispositions pour le portrait, le paysage et le plein écran. L\'utilisateur peut entrer en plein écran soit en utilisant le contrôleur de lecteur ou par programmation par le programmeur (ici en utilisant un bouton). Si votre activité n\'a pas de disposition paysage, vous pouvez choisir de passer automatiquement en mode plein écran lorsque l\'appareil est pivoté en orientation paysage
+.</string>
+    <string name="enter_fullscreen">Passer en mode plein écran</string>
+    <string name="landscape_fullscreen">Toujours plein écran dans le paysage</string>
+
+    <string name="actionbar_tutorial">Ceci est une démo qui montre comment utiliser ActionBar en superposition lorsque la vidéo est en plein écran. La barre d\'action disparaît automatiquement avec les commandes du lecteur lorsque la vidéo est lue en plein écran. Bien qu\'il ne soit pas en mode plein écran, la barre d\'actions est visible et ne recouvre aucune des vues.</string>
+
+    <string name="error_thumbnail_view">Une erreur s\'est produite lors de l\'initialisation de YouTubeThumbnailView (%1$s)</string>
+    <string name="isLaunchableActivity" />
+    <string name="minVersion" />
+    <string name="loggingTag" />
+    <string name="title_activity_main_map_location">MainMapLocation</string>
+
+    <string name="app_name3">ShushMe</string>
+    <string name="add_new_location">Ajouter un lieu</string>
+    <string name="location_list">Lieux</string>
+    <string name="need_location_permission_message">Vous de devez d\'abord activer  </string>
+    <string name="location_permissions_granted_message">Location Permissions Granted</string>
+    <string name="setting_enabled" translatable="false">Configuration activé</string>
+    <string name="settings_label">Configurations</string>
+    <string name="location_permissions">Location Permissions</string>
+    <string name="enable_geofences">Activer Geofences</string>
+    <string name="privacy">http://www.google.com/policies/privacy</string>
+    <string name="ringer_permissions">Alerte permissions</string>
+    <string name="silent_mode_activated">Mode silencieux activé</string>
+    <string name="touch_to_relaunch">Toucher pour lancer l\'application.</string>
+    <string name="back_to_normal">Retour au normal</string>
+    <string name="sharing_text">Your sharing text goes here…</string>
+    <string name="share_title">Partager une capture d\'écran</string>
+    <string name="screenshot_take_failed">Echec de capture d\'écran!!</string>
+    <string name="wait">Veuillez patienter…</string>
+    <string name="full_page_screenshot">Partager une capture d\'écran!</string>
+    <string name="hidden_text">Texte caché</string>
+    <string name="custom_page_screenshot">Custom Page Screenshot</string>
+</resources>

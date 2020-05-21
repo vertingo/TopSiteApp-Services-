@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:text="Configuration du service"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Saisissez une phrase qui sera lue en introduction du message (ex: 'un nouveau message est arrivé')."
+        android:textSize="50px"
+        android:textStyle="italic"
+        android:layout_marginTop="25px" />
+  
+    <EditText
+        android:hint="Entrez un message d'alerte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtPhrase"
+        android:layout_marginTop="25px" />
+    
+    
+  <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" 
+      android:gravity="center">
+      
+    <Button
+        android:text="Activer le service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnActiver"
+        android:layout_marginTop="25px" />
+    
+    <Button
+        android:text="Arrêter le service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnArreter"
+        android:layout_marginTop="25px" />
+      
+  </LinearLayout>
+        
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="player_view" type="id" />
+    <item name="list_fragment" type="id" />
+    <item name="video_fragment_container" type="id" />
+    <item name="video_box" type="id" />
+    <item name="close_button" type="id" />
+    <item name="list_item_disabled_text" type="id" />
+</resources>
